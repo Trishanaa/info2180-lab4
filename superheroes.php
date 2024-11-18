@@ -62,11 +62,11 @@ $superheroes = [
       "biography" => "Notably powerful, Wanda Maximoff has fought both against and with the Avengers, attempting to hone her abilities and do what she believes is right to help the world.",
   ], 
 ];
-
 ?>
-
 <ul>
 <?php foreach ($superheroes as $superhero): ?>
-  <li><?= $superhero['alias']; ?></li>
+  <li data-name="<?= $superhero['name']; ?>" data-alias="<?= $superhero['alias']; ?>" data-biography="<?= $superhero['biography']; ?>">
+    <?= $superhero['alias']; ?>
+  </li>
 <?php endforeach; ?>
 </ul>
