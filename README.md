@@ -1,3 +1,3 @@
 # INFO2180 Lab 4 
 
-This is Lab 4 for Kaydeen Tucker
+This is Lab 4 for Trishana Mckane
